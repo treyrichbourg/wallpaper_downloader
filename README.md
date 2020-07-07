@@ -43,5 +43,5 @@ user_agent= <your_user_agent>
 
 ## Usage
 Navigate to the location of the repository and run this command from your terminal.  If no `search_query` is entered then the script will pull from the r/Wallpapers (hot).  It is set to pull <kbd>.jpeg</kbd> and <kbd>.png</kbd> files from the first 25 posts by default (this can be changed on lines 21 and 23).  Wallpapers will be stored in <kbd>./r_wallpapers</kbd>.<p>
-<kbd>python3 wallpaper_downloader.py <search_query_string></kbd>
+`python3 wallpaper_downloader.py <search_query_string>`
 
