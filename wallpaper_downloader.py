@@ -4,7 +4,6 @@
 # Usage - wallpaper_downloader.py query
 
 import requests, os, praw, sys
-from pathlib import Path
 
 # Define variables
 reddit = praw.Reddit("wallpaper_downloader", config_interpolation="basic")
